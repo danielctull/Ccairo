@@ -1,0 +1,5 @@
+module Ccairo [system] {
+  header "/usr/local/include/cairo.h"
+  link "Ccairo"
+  export *
+}
