@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
   name: "Ccairo",
-  pkgConfig: "libcmark",
+  pkgConfig: "libcairo",
   providers: [
     .brew(["cairo"]),
     .apt(["libcairo-dev"])
